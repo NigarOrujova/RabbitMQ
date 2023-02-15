@@ -1,0 +1,10 @@
+version: '3.4'
+
+services:
+  #rabbitmq.producer:
+  #  image: ${DOCKER_REGISTRY-}rabbitmqproducer
+  #  build:
+  #    context: .
+  #    dockerfile: RabbitMQ.Producer/Dockerfile
+  rabbitmq:
+   image: rabbitmq:3.11-management
